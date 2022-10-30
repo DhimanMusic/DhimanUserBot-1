@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-<b> 『Lêɠêɳ̃dẞø†』 </b>
+<b> 『𝑫𝒉𝒊𝒎𝒂𝒏 𝑼𝒔𝒆𝒓 𝑩𝒐𝒕』 </b>
 </h1>
 
 <h6 align="center">
@@ -147,4 +147,4 @@
 </details>
 
 
-> Made with 💕 by [@LegendBot_XD](https://t.me/LegendBot_XD).    
+> Made with 💕 by [@dhinan_xx](https://t.me/dhinan_xx).    
