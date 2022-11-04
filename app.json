@@ -1,14 +1,14 @@
 {
-  "name": "Lêɠêɳ̃dẞο†",
-  "description": "LegendBot is one of the best userbot on telegram based on telethon & python",
+  "name": "𝐃𝐇𝐈𝐌𝐀𝐍 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓",
+  "description": "DhimanBot is one of the best userbot on telegram based on telethon & python",
   "logo": "https://telegra.ph/file/ac9bd7bcdac984dd407b2.jpg",
   "keywords": [
     "plugin",
-    "legendbot",
+    "dhimanbot",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ITS-LEGENDBOT/LEGENDBOT",
+  "repository": "https://github.com/DhimanMusic/DhimanUserBot-1",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
