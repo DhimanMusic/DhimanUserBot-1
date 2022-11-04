@@ -6,7 +6,7 @@
 </h1>
 
 <h6 align="center">
-  <b>⚡ Presenting a LegendBot. Which Is One Of The Fastest & Smoothest Bot On Telegram Based on Telethon ⚡</b>
+  <b>⚡ Presenting a DhimanBot. Which Is One Of The Fastest & Smoothest Bot On Telegram Based on Telethon ⚡</b>
 </h6>
 
 
@@ -44,7 +44,7 @@
 
 - Fork This Main Repo.
 - Go to Setting Of Repo.
-- Rename the Fork Repo Put Anything Example : LEGEND1BOT, HSKSBOT, LEGENDOFFBOT etc...
+- Rename the Fork Repo Put Anything Example : DHIMANBOT, HSKSBOT, LEGENDOFFBOT etc...
 - Now U Can Deploy This Bot.
 
 <a href="https://heroku.com/deploy/" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
@@ -88,7 +88,7 @@
 - Paste the OTP received on Telegram.
 - If You have Enabled 2-Step Verification then fill your password.
 - Note that Termux Doesn't show passwords when filled. Just paste your password and hit enter.
-- Your LegendBot Session Will be saved in your Telegram Saved Message.
+- Your DhimanBot Session Will be saved in your Telegram Saved Message.
 
 
 ## Self Host VPS
@@ -99,9 +99,9 @@
 
 - `sudo apt install --no-install-recommends -y curl git libffi-dev libjpeg-dev libwebp-dev python3-lxml python3-psycopg2 libpq-dev libcurl4-openssl-dev libxml2-dev libxslt1-dev python3-pip python3-sqlalchemy openssl wget python3 python3-dev libreadline-dev libyaml-dev gcc zlib1g ffmpeg libssl-dev libgconf-2-4 libxi6 unzip libopus0 libopus-dev python3-venv libmagickwand-dev pv tree mediainfo`
 
-- `git clone https://github.com/ITS-LEGENDBOT/LEGENDBOT` 
+- `git clone https://github.com/DhimanMusic/DhimanUserBot-1` 
 
-- `cd LEGENDBOT`
+- `cd DHIMANBOT`
 
 - `sudo apt install virtualenv`
 
@@ -113,7 +113,7 @@
 
 - `sudo apt install screen`
 
-- `screen -S LEGENDBOT`
+- `screen -S DHIMANBOT`
 
 - `virtualenv venv`
 
@@ -121,7 +121,7 @@
 
 - `pip3 install -r requirements.txt`
 
-- `python3 -m Legendbot`
+- `python3 -m `
  
 ------
 
