@@ -46,7 +46,7 @@ _run_python_code() {
     python3${pVer%.*} -c "$1"
 }
 
-_run_legendpackgit() {
+_run_dhimanpackgit() {
     $(_run_python_code 'from git import Repo
 import sys
 OFFICIAL_UPSTREAM_REPO = "https://github.com/DhimnMusic/DhimanUserBot-1"
@@ -73,18 +73,18 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _start_bot () {
     local zippath
-    zippath="LEGENDBOT.zip"
+    zippath="DHIMANBOT.zip"
     echo "  Downloading source code ..."
     wget -q $(_get_zlink) -O "$zippath"
     echo "  Unpacking Data ..."
-    LEGENDPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    DHIMANPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
     echo "  Cleaning ..."
     rm -rf "$zippath"
-    _run_legendpackgit
-    cd $LEGENDPATH
-    _run_legendgit
+    _run_dhimanpackgit
+    cd $DHIMANPATH
+    _run_dhimangit
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
     echo "    Starting DhimanUserBot    "
